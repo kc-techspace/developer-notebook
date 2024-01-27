@@ -1,7 +1,0 @@
-Docker commands
-docker ps -a
-docker system prune -a
-docker images
-docker rm container-name
-docker rmi image_id
-docker --version
