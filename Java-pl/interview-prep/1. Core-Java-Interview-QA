@@ -17,3 +17,4 @@ Ans:
     E.g All username and password passes as String in applications. If String will not be immutable then hacker can easily change reference of String.
   - Thread safety -> String is thread safe due to immutablity feature.
   
+  All wrapper classes are immutable in Java.
