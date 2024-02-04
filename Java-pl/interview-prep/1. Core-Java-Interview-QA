@@ -8,4 +8,7 @@ Ans:
   1. String Literal
   2. new operator
 
+  String Pool in Heap memory
+  - These String object stores in special memory location which is called String pool. String pool is a special memory location reserved in Heap memory to store String objects. 
+
   
