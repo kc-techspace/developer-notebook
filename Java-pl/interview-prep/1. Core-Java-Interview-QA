@@ -8,7 +8,12 @@ Ans:
   1. String Literal
   2. new operator
 
-  String Pool in Heap memory
-  - These String object stores in special memory location which is called String pool. String pool is a special memory location reserved in Heap memory to store String objects. 
+  String contant Pool in Heap memory
+  - These String object stores in special memory location which is called String constant pool. String pool is a special memory location reserved in Heap memory to store String objects. 
 
+  Why String is immutable?
+  - Memory -> Saves a lot of heap memory by JRE. It assigns reference of same string to multiple objects. 
+  - Security -> Saves application from security threat. Immutability gives the security of loading the correct class by Classloader.
+    E.g All username and password passes as String in applications. If String will not be immutable then hacker can easily change reference of String.
+  - Thread safety -> String is thread safe due to immutablity feature.
   
