@@ -1,1 +1,11 @@
+1. What is String and Why is it immutable?
+Ans: 
+  - Immutable objects means once it is created, it will not allow to modify or change the state of object.
+  - Generally, String is nothing but the sequence of characters. 
+  - In java, String is a class used to create string objects.
 
+  There are two ways to create String object.
+  1. String Literal
+  2. new operator
+
+  
